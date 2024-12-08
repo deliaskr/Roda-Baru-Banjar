@@ -1,0 +1,1748 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--- primary meta tags -->
+    <title>Roda Baru</title>
+    <meta name="title" content="Grilli - Amazing & Delicious Food" />
+    <meta
+      name="description"
+      content="This is a Restaurant html template made by codewithsadee"
+    />
+
+    <!--- favicon -->
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml" />
+
+    <!--- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--- custom css link -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--- preload images -->
+    <link rel="preload" as="image" href="images/hero-1.png" />
+    <link rel="preload" as="image" href="images/hero-2.png" />
+    <link rel="preload" as="image" href="images/hero-3.png" />
+  </head>
+
+  <body id="top">
+    <!--- #PRELOADER -->
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <p class="text">Roda Baru</p>
+    </div>
+
+    <!--- #TOP BAR -->
+    <div class="topbar">
+      <div class="container">
+        <address class="topbar-item">
+          <div class="icon">
+            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">
+            Jl. Letjend Suwarto No.35 Hegarsari, Kec. Pataruman, Kota Banjar
+          </span>
+        </address>
+
+        <div class="separator"></div>
+
+        <div class="topbar-item item-2">
+          <div class="icon">
+            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">Buka : 08.00 - 22.00 WIB</span>
+        </div>
+
+        <a
+          href="https://wa.me/6282126820022"
+          class="topbar-item link"
+          target="_blank"
+        >
+          <div class="icon">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">+62 821 2682 0022</span>
+        </a>
+
+        <div class="separator"></div>
+
+        <a href="mailto:rodabarubanjar35@gmail.com" class="topbar-item link">
+          <div class="icon">
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">rodabarubanjar35@gmail.com</span>
+        </a>
+      </div>
+    </div>
+
+    <!--- #HEADER -->
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="images/logo-2.svg"
+            width="160"
+            height="50"
+            alt="roda-baru"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <a href="#" class="logo">
+            <img
+              src="images/logo-2.svg"
+              width="160"
+              height="50"
+              alt="roda-baru"
+            />
+          </a>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="index.html" class="navbar-link hover-underline active">
+                <div class="separator"></div>
+
+                <span class="span">Beranda</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#menu" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Menu</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="index.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Tentang Kami</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="text-center">
+            <p class="headline-1 navbar-title">Kunjungi Kami</p>
+
+            <address class="body-4">
+              Jl. Letjend Suwarto No.35 Hegarsari, <br />
+              Kec. Pataruman, Kota Banjar
+            </address>
+
+            <p class="body-4 navbar-text">Buka : 08.00 - 22.00 WIB</p>
+
+            <a
+              href="mailto:rodabarubanjar35@gmail.com"
+              class="body-4 sidebar-link"
+              >rodabarubanjar35@gmail.com</a
+            >
+
+            <div class="separator"></div>
+
+            <p class="contact-label">Catering</p>
+
+            <a
+              href="https://wa.me/6282126820022"
+              class="body-1 contact-number hover-underline"
+            >
+              +62 821 2682 0022
+            </a>
+          </div>
+        </nav>
+
+        <a href="https://wa.me/6282126820022" class="btn btn-secondary">
+          <span class="text text-1">Catering</span>
+
+          <span class="text text-2" aria-hidden="true">Catering</span>
+        </a>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!--- #HERO -->
+        <section class="hero text-center" aria-label="home" id="home">
+          <ul class="hero-slider" data-hero-slider>
+            <li class="slider-item active" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="images/hero-1.png"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                Hidangan Padang Autentik
+              </p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                Rasakan Cita Rasa <br />
+                Tradisional Asli
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal">
+                Nikmati Kekayaan Rasa Minang yang Autentik
+              </p>
+            </li>
+
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="images/hero-2.png"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                Cita Rasa Berbumbu
+              </p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                Lezatnya Hidangan <br />
+                Khas Minang
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal">
+                Ajak Keluarga dan Nikmati Kelezatannya
+              </p>
+            </li>
+
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="images/hero-3.png"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                Kuliner Penuh Cerita
+              </p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                Jelajahi Warisan <br />
+                Rasa Masakan Minang
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal">
+                Hidangan Istimewa untuk Anda
+              </p>
+            </li>
+          </ul>
+
+          <button
+            class="slider-btn prev"
+            aria-label="slide to previous"
+            data-prev-btn
+          >
+            <ion-icon name="chevron-back"></ion-icon>
+          </button>
+
+          <button
+            class="slider-btn next"
+            aria-label="slide to next"
+            data-next-btn
+          >
+            <ion-icon name="chevron-forward"></ion-icon>
+          </button>
+        </section>
+
+        <!--- #MENU Makanan -->
+        <section class="section menu" aria-label="menu-label" id="menu">
+          <div class="container">
+            <p class="section-subtitle text-center label-2">Menu</p>
+
+            <h2 class="headline-1 section-title text-center">Makanan</h2>
+
+            <ul class="grid-list">
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/rendang.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Greek Salad"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Rendang</a>
+                      </h3>
+                      <span class="span title-2">Rp17.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Daging sapi dimasak dengan santan dan rempah hingga kering
+                      dan gurih.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/dendeng-balado.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Greek Salad"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Dendeng Balado</a>
+                      </h3>
+                      <span class="span title-2">Rp16.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Daging sapi tipis, kering, disiram sambal merah pedas.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/ayam-bakar.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Lasagne"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Ayam Bakar</a>
+                      </h3>
+
+                      <span class="span title-2">Rp15.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Ayam dipanggang dengan bumbu kecap dan rempah, bercita
+                      rasa manis pedas.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/ayam-balado.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Butternut Pumpkin"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Ayam Balado</a>
+                      </h3>
+
+                      <span class="span title-2">Rp15.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Ayam goreng disiram sambal cabai merah khas Padang.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/ayam-goreng.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Tokusen Wagyu"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Ayam Goreng</a>
+                      </h3>
+
+                      <span class="span title-2">Rp15.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Ayam berbumbu digoreng hingga renyah dan gurih.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/ayam-gulai.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Olivas Rellenas"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Ayam Gulai</a>
+                      </h3>
+
+                      <span class="span title-2">Rp15.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Ayam dimasak dalam kuah santan berbumbu khas.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/ayam-pop.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Ayam Pop</a>
+                      </h3>
+
+                      <span class="span title-2">Rp16.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Ayam kukus berwarna pucat dengan rasa gurih khas Minang.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/ayam-rendang.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Ayam Rendang</a>
+                      </h3>
+
+                      <span class="span title-2">Rp15.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Ayam dimasak hingga empuk dengan bumbu rendang kental.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/gulai-cumi.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Gulai Cumi-Cumi</a>
+                      </h3>
+
+                      <span class="span title-2">Rp20.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Cumi-Cumi diisi dan dimasak dalam kuah santan rempah.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/gulai-cincang.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Gulai Cincang</a>
+                      </h3>
+
+                      <span class="span title-2">Rp17.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Potongan daging sapi dimasak dalam kuah santan berbumbu
+                      pekat.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/gulai-kikil.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Gulai Kikil</a>
+                      </h3>
+
+                      <span class="span title-2">Rp20.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Kikil sapi dimasak dalam kuah santan pedas dan gurih.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/gulai-mas.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Gulai Ikan Mas</a>
+                      </h3>
+
+                      <span class="span title-2">Rp12.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Ikan mas dimasak dalam kuah santan pedas dan gurih.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/gulai-kepala-kakap.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Gulai Kepala Kakap</a>
+                      </h3>
+
+                      <span class="span title-2">Rp45.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Kepala ikan kakap dimasak dalam kuah santan berbumbu kaya
+                      rempah.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/ikan-k-bakar.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Ikan Kembung Bakar</a>
+                      </h3>
+
+                      <span class="span title-2">Rp12.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Ikan kembung dibakar dengan bumbu khas hingga harum.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/ikan-k-balado.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Ikan Kembung Balado</a>
+                      </h3>
+
+                      <span class="span title-2">Rp12.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Ikan kembung goreng disiram sambal cabai merah.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/ikan-k-goreng.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Ikan Kembung Goreng</a>
+                      </h3>
+
+                      <span class="span title-2">Rp12.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Ikan kembung digoreng hingga renyah.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/ikan-t-balado.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Ikan Tongkol Balado</a>
+                      </h3>
+
+                      <span class="span title-2">Rp12.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Ikan tongkol goreng disiram sambal pedas khas.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/t-asam-padeh.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title"
+                          >Ikan Tongkol Asam Padeh</a
+                        >
+                      </h3>
+
+                      <span class="span title-2">Rp12.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Ikan tongkol dimasak dengan kuah asam pedas.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/telur-balado.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Telur Balado</a>
+                      </h3>
+
+                      <span class="span title-2">Rp6.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Telur rebus disiram sambal merah pedas.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/telur-gulai.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Telur Gulai</a>
+                      </h3>
+
+                      <span class="span title-2">Rp5.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Telur rebus dimasak dalam kuah santan gurih.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/telur-dadar.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Telur Dadar</a>
+                      </h3>
+
+                      <span class="span title-2">Rp6.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Telur kocok digoreng hingga matang, lembut didalam, renyah
+                      di luar.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/udang-balado.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Udang Balado</a>
+                      </h3>
+
+                      <span class="span title-2">Rp20.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Udang goreng dimasak dengan sambal cabai merah.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/sayur-nangka.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Sayur Nangka</a>
+                      </h3>
+
+                      <span class="span title-2">Rp6.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Nangka muda dimasak dalam santan dengan rasa pedas dan
+                      gurih.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/perkedel.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Perkedel</a>
+                      </h3>
+
+                      <span class="span title-2">Rp6.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Kentang tumbuk dicampur bumbu, dibentuk bulat, lalu
+                      digoreng.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/pepes-ikan-mas.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Pepes Ikan Mas</a>
+                      </h3>
+
+                      <span class="span title-2">Rp5.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Ikan mas dibungkus daun pisang, diberi bumbu rempah, lalu
+                      dikukus hingga matang.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/terong-balado.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Terong Balado</a>
+                      </h3>
+
+                      <span class="span title-2">Rp5.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Terong goreng disiram sambal merah pedas.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/peyek-udang.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Peyek Udang</a>
+                      </h3>
+
+                      <span class="span title-2">Rp10.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Keripik tipis dengan adonan tepung dan udang goreng
+                      renyah.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/lalap-singkong.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Lalap Daun Singkong</a>
+                      </h3>
+
+                      <span class="span title-2">Rp4.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Daun singkong rebus disajikan dengan sambal.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/sambal-ijo.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Sambal Ijo</a>
+                      </h3>
+
+                      <span class="span title-2">Rp4.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Sambal hijau segar khas Minang.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/sambal-merah.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Sambal Merah</a>
+                      </h3>
+
+                      <span class="span title-2">Rp4.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Sambal cabai merah pedas dengan cita rasa khas.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <img
+              src="images/shape-5.png"
+              width="921"
+              height="1036"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-2 move-anim"
+            />
+            <img
+              src="images/shape-6.png"
+              width="343"
+              height="345"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-3 move-anim"
+            />
+          </div>
+        </section>
+
+        <!--- #MENU Minuman -->
+        <section class="section menu" aria-label="menu-label" id="menu">
+          <div class="container">
+            <p class="section-subtitle text-center label-2">Menu</p>
+
+            <h2 class="headline-1 section-title text-center">Minuman</h2>
+
+            <ul class="grid-list">
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/teh-manis.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Greek Salad"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Teh Manis</a>
+                      </h3>
+                      <span class="span title-2">Rp4.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Teh hangat atau dingin dengan gula.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/teh-botol.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Lasagne"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Teh Botol</a>
+                      </h3>
+
+                      <span class="span title-2">Rp5.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Minuman teh siap saji khas Indonesia.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/kopi-susu.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Butternut Pumpkin"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Kopi Susu</a>
+                      </h3>
+
+                      <span class="span title-2">Rp7.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Kopi hitam dengan tambahan susu manis.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/kopi-hitam.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Tokusen Wagyu"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Kopi Hitam</a>
+                      </h3>
+
+                      <span class="span title-2">Rp5.000</span>
+                    </div>
+
+                    <p class="card-text label-1">Kopi murni tanpa campuran.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/jus-naga.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Olivas Rellenas"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Jus Buah Naga</a>
+                      </h3>
+                      <span class="span title-2">Rp11.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Jus buah naga segar yang manis dan sehat.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/jus-mangga.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Jus Mangga</a>
+                      </h3>
+
+                      <span class="span title-2">Rp11.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Jus mangga segar dengan rasa manis alami.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/jus-jeruk.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Jus Jeruk</a>
+                      </h3>
+
+                      <span class="span title-2">Rp10.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Jus jeruk segar yang kaya vitamin C.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/jus-jambu.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Jus Jambu</a>
+                      </h3>
+
+                      <span class="span title-2">Rp10.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Jus jambu manis dan menyegarkan.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/jus-alpukat.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Jus Alpukat</a>
+                      </h3>
+
+                      <span class="span title-2">Rp11.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Jus alpukat lembut dengan tambahan susu manis.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="images/air.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Air Mineral</a>
+                      </h3>
+
+                      <span class="span title-2">Rp5.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Air putih segar untuk pelepas dahaga.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <img
+              src="images/shape-5.png"
+              width="921"
+              height="1036"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-2 move-anim"
+            />
+            <img
+              src="images/shape-6.png"
+              width="343"
+              height="345"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-3 move-anim"
+            />
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!--- #FOOTER -->
+    <footer
+      class="footer section has-bg-image text-center"
+      style="background-image: url('images/result_hero-1.png')"
+    >
+      <div class="container">
+        <div class="footer-top grid-list">
+          <div class="footer-brand has-before has-after">
+            <a href="#" class="logo">
+              <img
+                src="images/logo-2.svg"
+                width="160"
+                height="50"
+                loading="lazy"
+                alt="grilli home"
+              />
+            </a>
+
+            <address class="body-4">
+              Jl. Letjend Suwarto No.35 Hegarsari, Kec. Pataruman, Kota Banjar
+            </address>
+
+            <a
+              href="mailto:rodabarubanjar35@gmail.com"
+              class="body-4 contact-link"
+              >rodabarubanjar35@gmail.com</a
+            >
+
+            <a href="https://wa.me/6282126820022" class="body-4 contact-link"
+              >Catering : +62 821 2682 0022</a
+            >
+
+            <p class="body-4">Buka : 08.00 - 22.00 WIB</p>
+
+            <div class="wrapper">
+              <div class="separator"></div>
+              <div class="separator"></div>
+              <div class="separator"></div>
+            </div>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <a href="index.html" class="label-2 footer-link hover-underline"
+                >Beranda</a
+              >
+            </li>
+
+            <li>
+              <a href="#menu" class="label-2 footer-link hover-underline"
+                >Menu</a
+              >
+            </li>
+
+            <li>
+              <a href="index.html" class="label-2 footer-link hover-underline"
+                >Tentang Kami</a
+              >
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <a
+                href="https://instagram.com/rodabarubanjar35/"
+                target="_blank"
+                class="label-2 footer-link hover-underline"
+                >Instagram</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="https://wa.me/6282126820022"
+                target="_blank"
+                class="label-2 footer-link hover-underline"
+                >Whatsapp</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="https://www.google.com/maps?q=Jl.+Letjen+Suwarto+No.35,+Banjar,+Kec.+Banjar,+Kota+Banjar,+Jawa+Barat+46321,+Indonesia"
+                target="_blank"
+                class="label-2 footer-link hover-underline"
+                >Google Map</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">&copy; 2024 Roda Baru.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!--- #BACK TO TOP -->
+    <a
+      href="#top"
+      class="back-top-btn active"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!--- custom js link -->
+    <script src="script.js"></script>
+
+    <!--- ionicon link -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
